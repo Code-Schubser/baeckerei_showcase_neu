@@ -1,6 +1,12 @@
 export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 bg-[#2c1d11]/90 backdrop-blur-md border-b border-amber-500/30 shadow-lg transition-all">
+      {/* Showcase-Hinweis-Banner */}
+      <div className="bg-amber-500 text-[#2c1d11] text-[11px] sm:text-xs font-semibold py-1.5 px-4 text-center tracking-wide border-b border-amber-600/30">
+        <strong>Showcase-Projekt:</strong> Fiktive Website zu
+        Demonstrationszwecken. Keine echten Bestellungen möglich.
+      </div>
+
       <div className="max-w-6xl mx-auto px-4 py-3 flex flex-col md:flex-row justify-between items-center gap-4">
         {/* Logo & Markenname */}
         <a href="/#" className="flex items-center gap-3 group">

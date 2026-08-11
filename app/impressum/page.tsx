@@ -6,9 +6,14 @@ export default function ImpressumPage() {
       <SiteHeader />
 
       <main className="max-w-4xl mx-auto px-4 py-16">
-        <h1 className="text-3xl md:text-4xl font-serif font-bold text-[#2c1d11] mb-8">
-          Impressum
+        <h1 className="text-3xl md:text-4xl font-serif font-bold text-[#2c1d11] mb-2">
+          Impressum (Showcase-Demonstration)
         </h1>
+        <p className="text-xs text-amber-800 font-semibold mb-8 p-3 bg-amber-500/10 border border-amber-500/20 rounded-lg">
+          Hinweis: Diese Website ist ein fiktives Portfolio-Projekt. Die
+          dargestellte Konditorei sowie die Kontaktdaten dienen ausschließlich
+          Demonstrationszwecken.
+        </p>
 
         <div className="space-y-8 text-stone-700 leading-relaxed text-sm">
           {/* Anbieter der Website */}
