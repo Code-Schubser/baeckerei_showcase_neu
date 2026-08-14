@@ -28,6 +28,12 @@ export default function SiteHeader() {
         {/* Die 4 Kernbereiche in warmem Design */}
         <nav className="flex flex-wrap items-center justify-center gap-1 md:gap-2">
           <a
+            href="/#ueber-uns"
+            className="px-3 py-1.5 text-xs md:text-sm font-medium text-[#faf6f0]/90 hover:text-amber-200 hover:bg-white/10 rounded-lg transition-all"
+          >
+            Über uns
+          </a>
+          <a
             href="/#torten"
             className="px-3 py-1.5 text-xs md:text-sm font-medium text-[#faf6f0]/90 hover:text-amber-200 hover:bg-white/10 rounded-lg transition-all"
           >

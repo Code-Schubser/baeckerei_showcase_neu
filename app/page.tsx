@@ -60,6 +60,92 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 my-4">
           <div className="h-px bg-gradient-to-r from-transparent via-amber-900/20 to-transparent" />
         </div>
+        {/* Über uns / Handwerk & Tradition */}
+        <section
+          id="ueber-uns"
+          className="py-20 bg-[#faf6f0] text-stone-900 border-b border-amber-900/10"
+        >
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+              {/* Text- & Vertrauens-Spalte */}
+              <div>
+                <div className="inline-block text-xs uppercase tracking-[0.2em] font-semibold text-amber-800 bg-amber-100/80 border border-amber-900/10 px-3.5 py-1 rounded-full mb-4">
+                  Tradition seit 1950 in Spenge
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#2c1d11] tracking-tight leading-tight mb-6">
+                  Echtes Konditorhandwerk, das man mit jedem Bissen schmeckt.
+                </h2>
+                <p className="text-stone-700 leading-relaxed mb-4 font-sans text-sm sm:text-base">
+                  In unserer Backstube hat meisterliche Sorgfalt oberste
+                  Priorität. Wir verzichten bewusst auf industrielle
+                  Fertigmischungen und künstliche Aromen. Stattdessen setzen wir
+                  auf überlieferte Familienrezepte, echte Butter und erlesene
+                  Zutaten aus der Region.
+                </p>
+                <p className="text-stone-700 leading-relaxed mb-8 font-sans text-sm sm:text-base">
+                  Ob handgeschöpfte Schokolade, aufwendige Hochzeitstorten oder
+                  der frische Duft unserer morgendlichen Croissants: Bei uns
+                  erleben Sie Backkunst mit Herz und Charakter.
+                </p>
+
+                {/* 3 Vertrauens-Kennzahlen */}
+                <div className="grid grid-cols-3 gap-4 pt-6 border-t border-amber-900/10 text-center">
+                  <div className="p-3 rounded-xl bg-white/60 border border-amber-900/5 shadow-xs">
+                    <span className="block text-2xl sm:text-3xl font-serif font-bold text-[#2c1d11]">
+                      70+
+                    </span>
+                    <span className="text-[11px] text-stone-600 uppercase tracking-wider font-medium">
+                      Jahre Erfahrung
+                    </span>
+                  </div>
+                  <div className="p-3 rounded-xl bg-white/60 border border-amber-900/5 shadow-xs">
+                    <span className="block text-2xl sm:text-3xl font-serif font-bold text-[#2c1d11]">
+                      100%
+                    </span>
+                    <span className="text-[11px] text-stone-600 uppercase tracking-wider font-medium">
+                      Eigene Rezeptur
+                    </span>
+                  </div>
+                  <div className="p-3 rounded-xl bg-white/60 border border-amber-900/5 shadow-xs">
+                    <span className="block text-2xl sm:text-3xl font-serif font-bold text-[#2c1d11]">
+                      Meister
+                    </span>
+                    <span className="text-[11px] text-stone-600 uppercase tracking-wider font-medium">
+                      Betrieb OWL
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Visueller Bildbereich mit Deko-Badge */}
+              <div className="relative">
+                <div className="relative mx-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/3] bg-stone-200">
+                  <img
+                    src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80"
+                    alt="Handwerkliches Backen und Teigzubereitung in der Backstube"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+
+                {/* Schwebendes Deko-Badge */}
+                <div className="absolute -bottom-5 -left-4 sm:-left-6 bg-[#2c1d11] text-[#faf6f0] p-4 rounded-2xl shadow-xl border border-amber-500/30 flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-xl bg-amber-400/20 border border-amber-400/30 flex items-center justify-center text-xl">
+                    🥐
+                  </div>
+                  <div>
+                    <p className="text-xs font-bold font-serif text-amber-200">
+                      Täglich frisch
+                    </p>
+                    <p className="text-[11px] text-stone-300">
+                      Aus eigener Backstube
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* 4 Kernbereiche Section */}
         <section id="leistungen" className="py-20 max-w-6xl mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-14">
