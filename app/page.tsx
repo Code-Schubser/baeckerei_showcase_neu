@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SiteHeader from "@/components/site-header";
+import OpeningBadge from "@/components/opening-badge";
 
 export default function Home() {
   return (
@@ -51,6 +52,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          {/* Dynamisches Öffnungszeiten-Badge */}
+          <OpeningBadge />
         </section>
         {/* Elegante Trennlinie */}
         <div className="max-w-6xl mx-auto px-4 my-4">
