@@ -63,7 +63,7 @@ export default function Home() {
         {/* Über uns / Handwerk & Tradition */}
         <section
           id="ueber-uns"
-          className="py-20 bg-[#faf6f0] text-stone-900 border-b border-amber-900/10"
+          className="scroll-mt-36 md:scroll-mt-24 py-20 bg-[#faf6f0] text-stone-900 border-b border-amber-900/10"
         >
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -165,7 +165,7 @@ export default function Home() {
             {/* Karte 1: Torten */}
             <div
               id="torten"
-              className="group rounded-2xl bg-white border border-amber-900/10 shadow-sm hover:shadow-xl transition-all overflow-hidden flex flex-col justify-between"
+              className="scroll-mt-36 md:scroll-mt-24 group rounded-2xl bg-white border border-amber-900/10 shadow-sm hover:shadow-xl transition-all overflow-hidden flex flex-col justify-between"
             >
               <div>
                 <div className="relative h-48 overflow-hidden">
@@ -199,7 +199,7 @@ export default function Home() {
             {/* Karte 2: Gebäck */}
             <div
               id="gebaeck"
-              className="group rounded-2xl bg-white border border-amber-900/10 shadow-sm hover:shadow-xl transition-all overflow-hidden flex flex-col justify-between"
+              className="scroll-mt-36 md:scroll-mt-24 group rounded-2xl bg-white border border-amber-900/10 shadow-sm hover:shadow-xl transition-all overflow-hidden flex flex-col justify-between"
             >
               <div>
                 <div className="relative h-48 overflow-hidden">
@@ -233,7 +233,7 @@ export default function Home() {
             {/* Karte 3: Café */}
             <div
               id="cafe"
-              className="group rounded-2xl bg-white border border-amber-900/10 shadow-sm hover:shadow-xl transition-all overflow-hidden flex flex-col justify-between"
+              className="scroll-mt-36 md:scroll-mt-24 group rounded-2xl bg-white border border-amber-900/10 shadow-sm hover:shadow-xl transition-all overflow-hidden flex flex-col justify-between"
             >
               <div>
                 <div className="relative h-48 overflow-hidden">
@@ -267,7 +267,7 @@ export default function Home() {
             {/* Karte 4: Saalvermietung */}
             <div
               id="saal"
-              className="group rounded-2xl bg-amber-900/5 border border-amber-500/30 shadow-sm hover:shadow-xl transition-all overflow-hidden flex flex-col justify-between"
+              className="scroll-mt-36 md:scroll-mt-24 group rounded-2xl bg-amber-900/5 border border-amber-500/30 shadow-sm hover:shadow-xl transition-all overflow-hidden flex flex-col justify-between"
             >
               <div>
                 <div className="relative h-48 overflow-hidden">
@@ -309,7 +309,10 @@ export default function Home() {
           </div>
         </div>
         {/* Kontakt, Öffnungszeiten & Standort */}
-        <section id="kontakt" className="py-20 bg-[#2c1d11] text-[#faf6f0]">
+        <section
+          id="kontakt"
+          className="scroll-mt-36 md:scroll-mt-24 py-20 bg-[#2c1d11] text-[#faf6f0]"
+        >
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center max-w-2xl mx-auto mb-14">
               <span className="text-amber-400 text-xs font-semibold tracking-widest uppercase">
@@ -404,7 +407,7 @@ export default function Home() {
                 <p className="text-stone-300 text-sm mb-4 leading-relaxed">
                   Konditorei & Café Schulze
                   <br />
-                  Lange Straße 12
+                  Lange Straße
                   <br />
                   32139 Spenge
                 </p>
